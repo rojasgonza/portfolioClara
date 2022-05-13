@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight:900;
+}
+
+.description {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 450px;
+
+}
+
+.foto-persona {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #993EAD;
+    background-image: url('/img/clara.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 1%;
+}
+
+.button {
+    border: 1px solid #993EAD;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: #78AD2D;
+}
+.button:hover{
+    border: 1px solid #993EAD;
+    background-color: #78AD2D;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #993EAD;
+    transition: 1s;
+    
+}
+.exp1{
+    height: 550px;
+}
+#es{
+height: 275px; width: 275px;
+background-image: url('/img/4565.jpg');
+background-repeat: no-repeat;
+background-size: cover; }
+
+.redes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+
+}
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background-color: #78AD2D;
+    color: #993EAD;
+    line-height: 50px;
+    border-radius: 100%;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0 #993EAD;
+}
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0 #921eac;
+    filter: none;
+}
